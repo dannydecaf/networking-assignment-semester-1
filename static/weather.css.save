@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Brush Script MT', cursive;
+}
+.weatherheader {
+  font-size: large;
+  display: inline-block;
+  width: auto:
+  text-align: center;
+  marginL auto;
+  border-bottom: 1px solid black;
+  border-bottom-color: rgba(0, 0, 0, 0.1);
+}
+
+.container{
+align-items: center;
+justify-content: center;
+display: flex;
+}
+
+.cover{
+    width: 900px;
+    height: 400px;
+    margin-top: 50px;
+    display: flex;
+}
+.box {
+    margin: 15px;
+    width: 800px;
+    height: 400px;
+    box-shadow: -1px 0 10px #000000;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: xx-large;
+}
+img{
+    width: 300px;
+    height: 200px;
+    display: flex;
+}
+
+h1 {
+  color: rgba(178, 34, 34, 0.7);
+  text-align: center;
+}
+
+#wrapper {
+  margin-top: 50px;
+  text-align: center;
+}
+
+#video {
+   margin: auto;
+}
+
+footer {
+   color: rgba(178, 34, 34, 0.7);
+   

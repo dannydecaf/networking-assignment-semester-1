@@ -1,0 +1,42 @@
+<!doctype html>
+<html>
+    <head>
+	<title>Raspberry Pi Weather FM</title>
+        <link rel="stylesheet" href="static/weather.css" />
+    </head>
+   <body>
+        <h1>Raspberry Pi Weather FM</h1>
+        <br>
+        <br>       
+        <div class="container">
+        <div class="cover">
+           <div class="box">
+              <img src="static/temp.jpg">
+              <h2>Temperature:</h2>
+              <p><strong>Celcius:</strong> {{ celcius }}</p>
+              <p><strong>Fahrenheit:</strong> {{ fahrenheit }}</p>
+           </div>
+           <div class="box">
+              <img src="static/humidity.jpg">
+              <h2>Humidity:</h2>
+              <p>{{ humidity }}% </p>
+           </div>
+           <div class="box">
+              <img src="static/pressure.jpg">
+              <h2>Pressure:</h2>
+              <p>{{ pressure }}hPa </p>
+           </div>
+        </div>
+        </div>
+        <br>
+        <br>
+        <div id= "wrapper">
+          <iframe id="weatherplay" width="560" height="315" src={{music_link}} title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div>
+      <footer>
+        <p id="fm"><strong><i>Raspberry Pi Weather FM - Music to complement the elements</i></strong></p>
+        <p id="contactme"><Contact me: <a href="mailto:08559350@wit.ie">08559350@wit.ie</a></p><br>
+        <p id="copyright">Dan Coffey Projects ©2021</p>
+      </footer>
+   </body>
+</html>
